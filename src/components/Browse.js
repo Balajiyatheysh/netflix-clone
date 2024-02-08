@@ -8,12 +8,15 @@ import { useSelector } from "react-redux";
 import React from "react";
 
 const Browse = () => {
+
   const showGptSearch = useSelector((store) => store.gpt.showGptSearch);
 
   useNowPlayingMovies();
+
   usePopularMovies();
 
   return (
+
     <div>
       <Header />
       {showGptSearch ? (
@@ -25,6 +28,8 @@ const Browse = () => {
         </>
       )}
     </div>
+
   );
 };
+
 export default Browse;
