@@ -19,6 +19,7 @@ const VideoBackground = ({ movieId }) => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       ></iframe>
     </div>
-  );
-};
-export default VideoBackground;
+  )
+}
+
+export default VideoBackground
