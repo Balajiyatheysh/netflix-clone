@@ -8,6 +8,7 @@ const VideoBackground = ({ movieId }) => {
 
   return (
     <div className=" w-screen">
+
       <iframe
         className="w-screen aspect-video"
         src={
@@ -18,6 +19,7 @@ const VideoBackground = ({ movieId }) => {
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       ></iframe>
+      
     </div>
   )
 }
