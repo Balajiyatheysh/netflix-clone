@@ -1,6 +1,3 @@
-
-
-
 ## Screenshots
 
 ![App Screenshot](./screenshots/signupPage.png)
@@ -12,13 +9,6 @@
 ![App Screenshot](./screenshots/categoriesSection.png)
 
 ![App Screenshot](./screenshots/gptSearchPage.png)
-
-
-
-
-
-
-
 
 ## Feedback
 
